@@ -50,8 +50,8 @@
                     />
                     <div id="descricao" class="notification is-link">
                         <button class="delete" @click="limpar(cart.sigla)"></button>
-                        <p>Sala: {{ cart.Sala }}</p>
-                        <p>Caminho: {{ cart.Caminho }}</p>
+                        <p> {{ cart.Sala }}</p>
+                        <p> {{ cart.Caminho }}</p>
                     </div>
                 </b-card>
               </b-col>
@@ -95,49 +95,49 @@ export default {
             cart: {},
             Cantina: {
                 Sala: "Cantina",
-                Caminho: "Descrição",
+                Caminho: "Desça a \"Rampa Térro\" e vire a esquerda",
                 posicaoL: "9%",
                 posicaoT: "46%",
                 sigla: "Cantina"
             },
             Biblioteca: {
                 Sala: "Biblioteca",
-                Caminho: "Descrição",
+                Caminho: "Desça a \"Rampa Térro\" e vire a direita",
                 posicaoL: "54%",
                 posicaoT: "30%",
                 sigla: "Biblioteca"
             },
             Recepcao: {
                 Sala: "Recepção",
-                Caminho: "Descrição",
+                Caminho: "Após a entrada vire a direita",
                 posicaoL: "59%",
                 posicaoT: "67%",
                 sigla: "Recepcao"
             },
             Ginasio: {
                 Sala: "Ginásio",
-                Caminho: "Descrição",
+                Caminho: "Desça a \"Rampa Térro\" e vire a esquerda, ao lado da biblioteca, siga pelo caminho de acesso.",
                 posicaoL: "63%",
                 posicaoT: "28%",
                 sigla: "Ginasio"
             },
             BanheirosT: {
                 Sala: "Banheiros Térreo",
-                Caminho: "Descrição",
+                Caminho: "No pátio ao lado dos armários",
                 posicaoL: "42%",
                 posicaoT: "12%",
                 sigla: "BanheirosT"
             },
             Armarios: {
                 Sala: "Armários",
-                Caminho: "Descrição",
+                Caminho: "Ao lado da cantina",
                 posicaoL: "8%",
                 posicaoT: "24%",
                 sigla: "Armarios"
             },
             Entrada: {
-                Sala: "Entrada",
-                Caminho: "Descrição",
+                Sala: "Entrada/Saída",
+                Caminho: "Você chegou!",
                 posicaoL: "38%",
                 posicaoT: "78%",
                 sigla: "Entrada"
@@ -173,8 +173,8 @@ export default {
 }
 #descricao{
     position:absolute; 
-    height:150px; 
-    width:35%;  
+    height:200px; 
+    width:40%;  
     display: none;
 }
 .linkEstados{

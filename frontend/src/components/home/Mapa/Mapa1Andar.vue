@@ -32,8 +32,8 @@
               />
               <div id="descricao" class="notification is-link">
                 <button class="delete" @click="limpar(cart.sigla)"></button>
-                <p>Sala: {{ cart.Sala }}</p>
-                <p>Caminho: {{ cart.Caminho }}</p>
+                <p> {{ cart.Sala }}</p>
+                <p> {{ cart.Caminho }}</p>
               </div>
             </b-card>
           </b-col>
@@ -78,28 +78,28 @@ export default {
             cart: {},
             BlocoB1A: {
                 Sala: "Bloco B 1º Andar",
-                Caminho: "Descrição",
+                Caminho: "Acesso pelas escadas e rampas, em frente ao bloco C",
                 posicaoL: "12%",
                 posicaoT: "10%",
                 sigla: "BlocoB1A"
             },
             BlocoC1A: {
                 Sala: "Bloco C 1º Andar",
-                Caminho: "Descrição",
+                Caminho: "Acesso pelas escadas e rampas, em frente ao bloco B",
                 posicaoL: "63%",
                 posicaoT: "10%",
                 sigla: "BlocoC1A"
             },
             BlocoD1A: {
                 Sala: "Bloco D 1º Andar",
-                Caminho: "Descrição",
+                Caminho: "Acesso pelas escadas e rampas, em frente ao bloco A",
                 posicaoL: "63%",
                 posicaoT: "63%",
                 sigla: "BlocoD1A"
             },
             BlocoA1A: {
                 Sala: "Bloco A 1º Andar",
-                Caminho: "Descrição",
+                Caminho: "Acesso pelas escadas e rampas em frente ao bloco D",
                 posicaoL: "12%",
                 posicaoT: "63%",
                 sigla: "BlocoA1A"
